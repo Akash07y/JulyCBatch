@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite234]" parallel="tests">
+  <test thread-count="2" name="fireFox(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testClasses.ToVerifyHomePageHeader">
+        <methods>
+          <include name="cleanObjects"/>
+          <include name="verifyTaskButton"/>
+          <include name="loOutFromActitime"/>
+          <include name="verifyReportButton"/>
+          <include name="cosedBrowser"/>
+          <include name="loginToActitime"/>
+          <include name="lauchApplication"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testClasses.ToVerifyHomePageHeader -->
+    </classes>
+  </test> <!-- fireFox(failed) -->
+  <test thread-count="2" name="chromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testClasses.ToVerifyHomePageHeader">
+        <methods>
+          <include name="cleanObjects"/>
+          <include name="verifyTaskButton"/>
+          <include name="loOutFromActitime"/>
+          <include name="verifyReportButton"/>
+          <include name="cosedBrowser"/>
+          <include name="loginToActitime"/>
+          <include name="lauchApplication"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testClasses.ToVerifyHomePageHeader -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [Suite234] -->

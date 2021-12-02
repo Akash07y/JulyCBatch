@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="294" started-at="2021-11-25T07:38:08 IST" finished-at="2021-11-25T07:38:08 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="294" started-at="2021-11-25T07:38:08 IST" finished-at="2021-11-25T07:38:08 IST">
+      <class name="testClasses.ToVerifyHomePageHeader">
+        <test-method status="FAIL" signature="launchBrowser(java.lang.String)[pri:0, instance:testClasses.ToVerifyHomePageHeader@3dd4520b]" name="launchBrowser" is-config="true" duration-ms="-1637806088573" started-at="2021-11-25T07:38:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\AppData\Local\Temp\testng-eclipse-65296247\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\AppData\Local\Temp\testng-eclipse-65296247\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="SKIP" signature="lauchApplication()[pri:0, instance:testClasses.ToVerifyHomePageHeader@3dd4520b]" name="lauchApplication" is-config="true" duration-ms="-1637806088672" started-at="2021-11-25T07:38:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method status="SKIP" signature="loginToActitime()[pri:0, instance:testClasses.ToVerifyHomePageHeader@3dd4520b]" name="loginToActitime" is-config="true" duration-ms="-1637806088753" started-at="2021-11-25T07:38:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToActitime -->
+        <test-method status="SKIP" signature="verifyReportButton()[pri:1, instance:testClasses.ToVerifyHomePageHeader@3dd4520b]" name="verifyReportButton" duration-ms="1" started-at="2021-11-25T07:38:08 IST" finished-at="2021-11-25T07:38:08 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\AppData\Local\Temp\testng-eclipse-65296247\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\AppData\Local\Temp\testng-eclipse-65296247\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReportButton -->
+        <test-method status="SKIP" signature="loOutFromActitime()[pri:0, instance:testClasses.ToVerifyHomePageHeader@3dd4520b]" name="loOutFromActitime" is-config="true" duration-ms="-1637806088775" started-at="2021-11-25T07:38:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loOutFromActitime -->
+        <test-method status="SKIP" signature="loginToActitime()[pri:0, instance:testClasses.ToVerifyHomePageHeader@3dd4520b]" name="loginToActitime" is-config="true" duration-ms="-1637806088785" started-at="2021-11-25T07:38:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToActitime -->
+        <test-method status="SKIP" signature="verifyTaskButton()[pri:2, instance:testClasses.ToVerifyHomePageHeader@3dd4520b]" name="verifyTaskButton" duration-ms="0" started-at="2021-11-25T07:38:08 IST" finished-at="2021-11-25T07:38:08 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\AppData\Local\Temp\testng-eclipse-65296247\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Akash\AppData\Local\Temp\testng-eclipse-65296247\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTaskButton -->
+        <test-method status="SKIP" signature="loOutFromActitime()[pri:0, instance:testClasses.ToVerifyHomePageHeader@3dd4520b]" name="loOutFromActitime" is-config="true" duration-ms="-1637806088825" started-at="2021-11-25T07:38:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loOutFromActitime -->
+        <test-method status="SKIP" signature="cleanObjects()[pri:0, instance:testClasses.ToVerifyHomePageHeader@3dd4520b]" name="cleanObjects" is-config="true" duration-ms="-1637806088839" started-at="2021-11-25T07:38:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanObjects -->
+        <test-method status="SKIP" signature="cosedBrowser()[pri:0, instance:testClasses.ToVerifyHomePageHeader@3dd4520b]" name="cosedBrowser" is-config="true" duration-ms="-1637806088848" started-at="2021-11-25T07:38:08 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cosedBrowser -->
+      </class> <!-- testClasses.ToVerifyHomePageHeader -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
