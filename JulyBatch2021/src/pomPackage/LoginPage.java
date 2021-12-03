@@ -26,7 +26,7 @@ public class LoginPage {
 	
 	public void sendUsename() {
 		
-		String user = Utility.getdatafromExcelsheet(0,1);
+		String user = "hjk";
 		userName.sendKeys("admin");
 	}
 	
