@@ -16,6 +16,12 @@ public class LoginPage {
 	@FindBy (xpath = "//a[text()='Login']")
 	private WebElement login;
 	
+		@FindBy (xpath = "//a[text()='Login']")
+	private WebElement login123;
+	
+		@FindBy (xpath = "//a[text()='Login']")
+	private WebElement login;3456
+	
 	public LoginPage(WebDriver driver)  // driver = driver123 = new ChromeDriver()
 	{
 		
